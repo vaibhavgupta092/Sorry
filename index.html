@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>For You ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- Background Music -->
+<audio id="bg-music" autoplay loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container">
+
+  <!-- Screen 1 -->
+  <section class="screen active">
+    <h1>When you hurt someone you love 💔</h1>
+    <p>It stays with you…</p>
+    <div class="next" onclick="nextScreen()">click me →</div>
+  </section>
+
+  <!-- Screen 2 -->
+  <section class="screen">
+    <h1>You don’t just say sorry…</h1>
+    <p>You try to fix what you broke</p>
+    <div class="next" onclick="nextScreen()">click me →</div>
+  </section>
+
+  <!-- Screen 3 -->
+  <section class="screen">
+    <h1>You build something special ❤️</h1>
+    <p>Because they matter to you</p>
+    <div class="next" onclick="nextScreen()">click me →</div>
+  </section>
+
+  <!-- Screen 4 (Photo) -->
+  <section class="screen">
+    <img src="her.jpg" alt="Her Photo" class="photo" />
+    <h1>This is for you 💗</h1>
+    <p>I never meant to hurt you</p>
+    <div class="next" onclick="nextScreen()">click me →</div>
+  </section>
+
+  <!-- Screen 5 -->
+  <section class="screen">
+    <h1>I’m really sorry…</h1>
+    <p>
+      I know I made mistakes.<br>
+      I hope you can forgive me someday 🌸
+    </p>
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
